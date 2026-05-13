@@ -17,9 +17,9 @@ from sklearn.metrics import classification_report
 
 # --- 1. configuration & paths ---
 data_paths = {
-    "raster": r'C:\DLCNN\Data09022022\WVDallasComposite_2.tif',
-    "train_shp": r'C:\PhDProjects\Paper2\NewData\WVDallas_SampleSegmentsNot1616Training.shp',
-    "test_shp": r'C:\PhDProjects\Paper2\NewData\WVDallas_SampleSegmentsNot1616Testing.shp'
+    "raster": r'C:\PhDProjects\WVDallasComposite.tif',
+    "train_shp": r'C:\PhDProjects\WVDallas_Train.shp',
+    "test_shp": r'C:\PhDProjects\WVDallas_Test.shp'
 }
 
 bins = 64
